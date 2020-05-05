@@ -177,6 +177,7 @@ nav {
   height: 100px;
   padding: 0;
   text-align: center;
+  outline: none;
 }
 
 .btn-primary {
