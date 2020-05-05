@@ -1,4 +1,4 @@
-# Ecommerce`Generics Sapper App
+# Ecommerce(Generics) Sapper App
 
 ## How to setup this project
 
