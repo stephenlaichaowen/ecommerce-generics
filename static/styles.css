@@ -421,4 +421,11 @@ nav {
   li.fade {
     opacity: 1;
   }
+  .band-name {
+    font-size: 80px;
+    /* border: 1px solid white; */
+  }
+  .btn-header {
+    font-size: 20px;
+  }
 }
