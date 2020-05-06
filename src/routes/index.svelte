@@ -1,7 +1,16 @@
 <script>
   import tourStore from "../store/tourStore.js";
 
+  let tickets = []
+
   function buyTickets(date, location, theatre) {
+    // tickets = [{date, location, theatre}, ...tickets]
+    // alert(`
+    //   ticket info:
+    //   ${tickets.date}
+    //   ${tickets.location}
+    //   ${tickets.theatre}
+    // `)
     alert(`
       Ticket information:
       date: ${date},

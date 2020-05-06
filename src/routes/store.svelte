@@ -1,8 +1,14 @@
 <script>
   import musicStore from "../store/musicStore.js";
 
+  let cart = []
+
   function addToCart(name) {
-    alert(`${name} is added to cart`);
+    cart = [name, ...cart]   
+    alert(`
+      cart item:
+      ${cart}
+    `);
     
   }
 
