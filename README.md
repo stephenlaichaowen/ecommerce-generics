@@ -24,14 +24,14 @@ npm run dev
 ## Project Structure
 
 src
-- api(not implemented yet)
+- api (not implemented yet)
 - components
   - Nav.svelte
   -Footer.svelte
 - routes
-  - index.svelte(home page)
-  - store.svelte(store page)
-  - about.svelte(about page)
+  - index.svelte (home page)
+  - store.svelte (store page)
+  - about.svelte (about page)
 - store
   - musicStore.js
   - tourStore.js
