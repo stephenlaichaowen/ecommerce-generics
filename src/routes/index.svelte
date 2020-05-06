@@ -1,8 +1,13 @@
 <script>
   import tourStore from "../store/tourStore.js";
 
-  function buyTickets() {
-    alert(`Thank you for buying this ticket !!!`)
+  function buyTickets(date, location, theatre) {
+    alert(`
+      Ticket information:
+      date: ${date},
+      location: ${location},
+      theatre: ${theatre}
+    `)
   }
 </script>
 
@@ -14,7 +19,7 @@
         <span class="tour-item tour-date">{item.date}</span>
         <span class="tour-item tour-city">{item.location}</span>
         <span class="tour-item tour-arena">{item.theatre}</span>
-        <button type="button" class="tour-item tour-btn btn btn-primary" on:click={buyTickets}>
+        <button type="button" class="tour-item tour-btn btn btn-primary" on:click={() => buyTickets(item.date, item,location, item.theatre)}>
           BUY TICKETS
         </button>
       </div>

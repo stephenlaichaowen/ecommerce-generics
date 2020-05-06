@@ -19,13 +19,25 @@
     height: 10vh;
   }
   .nav-links {
-    margin: auto;
     display: flex;
     list-style: none;
     width: 50%;
     height: 100%;
     justify-content: space-around;
     align-items: center;
+    margin: auto;
+  }
+  .main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-nav li {
+    padding: 0 5%;
   }
   .btn-wrap {
     display: flex;
@@ -62,6 +74,12 @@
       pointer-events: none;
       z-index: 20;
     }
+    /* .nav-links li,
+    .nav-links a {
+       display: block;
+       border: 1px solid white;
+       margin: 0;
+     } */
     .fixedBar {
       position: fixed;
       right: 5%;
