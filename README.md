@@ -2,14 +2,7 @@
 
 ## DEMO
 
-### Desktop
-![Desktop](static/desktop.png)
-
-### Mobile
-![Mobile](static/mobile-1.png)
-
-### Mobile - Menu
-![Desktop](static/mobile-2.png)
+[link](https://stephenlaichaowen.github.io/my-assets/img/vacation.jpg)
 
 ## How to setup this project
 
