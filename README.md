@@ -21,6 +21,21 @@ Start development
 npm run dev
 ```
 
+## Project Structure
+
+src
+  |__api(not implemented yet)
+  |__components
+              |__Nav.svelte
+              |__Footer.svelte
+  |__routes
+          |__index.svelte(home page)
+          |__store.svelte(store page)
+          |__about.svelte(about page)
+  |__store
+          |__musicStore.js
+          |__tourStore.js
+
 ## Upload your sapper project to Github
 
 Create a local git repo
