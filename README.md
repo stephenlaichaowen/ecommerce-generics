@@ -36,7 +36,7 @@ src
   - musicStore.js
   - tourStore.js
 
-## Upload your sapper project to Github
+## Upload Sapper project to Github
 
 Create a local git repo
 ```
