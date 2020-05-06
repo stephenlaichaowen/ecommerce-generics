@@ -1,5 +1,14 @@
 <script>
   import musicStore from "../store/musicStore.js";
+
+  function addToCart(name) {
+    alert(`${name} is added to cart`);
+    
+  }
+
+  function purchase() {
+    alert('thank you for purchasing our products !!!')
+  }
 </script>
 
 <div class="body animated zoomIn">
@@ -15,7 +24,7 @@
             alt="image" />
           <div class="shop-item-details">
             <span class="shop-item-price">{item.price / 100}</span>
-            <button class="btn btn-primary shop-item-button" type="button">
+            <button class="btn btn-primary shop-item-button" type="button" on:click={() => addToCart(item.name)}>
               ADD TO CART
             </button>
           </div>
@@ -35,7 +44,7 @@
             alt="image" />
           <div class="shop-item-details">
             <span class="shop-item-price">{item.price / 100}</span>
-            <button class="btn btn-primary shop-item-button" type="button">
+            <button class="btn btn-primary shop-item-button" type="button" on:click={() => addToCart(item.name)}>
               ADD TO CART
             </button>
           </div>
@@ -55,6 +64,6 @@
       <strong class="cart-total-title">Total</strong>
       <span class="cart-total-price">$0</span>
     </div>
-    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    <button class="btn btn-primary btn-purchase" type="button" on:click={purchase}>PURCHASE</button>
   </section>
 </div>

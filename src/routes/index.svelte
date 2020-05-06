@@ -1,53 +1,23 @@
+<script>
+  import tourStore from "../store/tourStore.js";
+
+  function buyTickets() {
+    alert(`Thank you for buying this ticket !!!`)
+  }
+</script>
+
 <section class="content-section container animated fadeInUp">
   <h2 class="section-header">TOURS</h2>
   <div>
-    <div class="tour-row">
-      <span class="tour-item tour-date">JUL 16</span>
-      <span class="tour-item tour-city">DETROIT, MI</span>
-      <span class="tour-item tour-arena">DTE ENERGY MUSIC THEATRE</span>
-      <button type="button" class="tour-item tour-btn btn btn-primary">
-        BUY TICKETS
-      </button>
-    </div>
-    <div class="tour-row">
-      <span class="tour-item tour-date">JUL 19</span>
-      <span class="tour-item tour-city">TORONTO, ON</span>
-      <span class="tour-item tour-arena">BUDWEISER STAGE</span>
-      <button type="button" class="tour-item tour-btn btn btn-primary">
-        BUY TICKETS
-      </button>
-    </div>
-    <div class="tour-row">
-      <span class="tour-item tour-date">JUL 22</span>
-      <span class="tour-item tour-city">BRISTOW, VA</span>
-      <span class="tour-item tour-arena">JIGGY LUBE LIVE</span>
-      <button type="button" class="tour-item tour-btn btn btn-primary">
-        BUY TICKETS
-      </button>
-    </div>
-    <div class="tour-row">
-      <span class="tour-item tour-date">JUL 29</span>
-      <span class="tour-item tour-city">PHOENIX, AZ</span>
-      <span class="tour-item tour-arena">AK-CHIN PAVILION</span>
-      <button type="button" class="tour-item tour-btn btn btn-primary">
-        BUY TICKETS
-      </button>
-    </div>
-    <div class="tour-row">
-      <span class="tour-item tour-date">AUG 2</span>
-      <span class="tour-item tour-city">LAS VEGAS, NV</span>
-      <span class="tour-item tour-arena">T-MOBILE ARENA</span>
-      <button type="button" class="tour-item tour-btn btn btn-primary">
-        BUY TICKETS
-      </button>
-    </div>
-    <div class="tour-row">
-      <span class="tour-item tour-date">AUG 7</span>
-      <span class="tour-item tour-city">CONCORD, CA</span>
-      <span class="tour-item tour-arena">CONCORD PAVILION</span>
-      <button type="button" class="tour-item tour-btn btn btn-primary">
-        BUY TICKETS
-      </button>
-    </div>
+    {#each $tourStore as item}
+      <div class="tour-row">
+        <span class="tour-item tour-date">{item.date}</span>
+        <span class="tour-item tour-city">{item.location}</span>
+        <span class="tour-item tour-arena">{item.theatre}</span>
+        <button type="button" class="tour-item tour-btn btn btn-primary" on:click={buyTickets}>
+          BUY TICKETS
+        </button>
+      </div>
+    {/each}
   </div>
 </section>

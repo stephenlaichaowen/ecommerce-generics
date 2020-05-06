@@ -3,16 +3,103 @@
 
   let open = false;
   let fade = false;
-  let fixedBar = false
+  let fixedBar = false;
 
-  $: if (open) fixedBar = true
-  $: if (!open) fixedBar = false
+  $: if (open) fixedBar = true;
+  $: if (!open) fixedBar = false;
 
   function toggleMenu() {
     open = !open;
     fade = !fade;
   }
 </script>
+
+<style>
+  nav {
+    height: 10vh;
+  }
+  .nav-links {
+    margin: auto;
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 575px) {
+    .line {
+      width: 30px;
+      height: 3px;
+      background: white;
+      margin: 5px;
+    }
+    nav {
+      position: relative;
+    }
+    .hamburger {
+      position: absolute;
+      cursor: pointer;
+      right: 5%;
+      top: 50%;
+      transform: translate(-5%, -50%);
+      z-index: 15;
+    }
+    .nav-links {
+      position: fixed;
+      background: #56ccf2;
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      clip-path: circle(100px at 90% -25%);
+      -webkit-clip-path: circle(100px at 90% -25%);
+      transition: all 0.5s ease-out;
+      pointer-events: none;
+      z-index: 20;
+    }
+    .fixedBar {
+      position: fixed;
+      right: 5%;
+      top: 5%;
+    }
+    .nav-links.open {
+      clip-path: circle(1000px at 90% -25%);
+      -webkit-clip-path: circle(1000px at 90% -25%);
+      pointer-events: all;
+      z-index: 5;
+    }
+    .nav-links li {
+      opacity: 0;
+    }
+    .nav-links li a {
+      font-size: 25px;
+    }
+    .nav-links li:nth-child(1) {
+      transition: all 0.5s ease 0.1s;
+    }
+    .nav-links li:nth-child(2) {
+      transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(3) {
+      transition: all 0.5s ease 0.3s;
+    }
+    li.fade {
+      opacity: 1;
+    }
+    .band-name {
+      font-size: 80px;
+      /* border: 1px solid white; */
+    }
+    .btn-header {
+      font-size: 20px;
+    }
+  }
+</style>
 
 <header class="main-header">
   <nav class="nav main-nav">
