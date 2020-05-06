@@ -1,12 +1,14 @@
 # Ecommerce ( The Generics Band ) Sapper App
 
-Desktop
+## DEMO
+
+### Desktop
 ![Desktop](static/desktop.png)
 
-Mobile
+### Mobile
 ![Mobile](static/mobile-1.png)
 
-Mobile - Menu
+### Mobile - Menu
 ![Desktop](static/mobile-2.png)
 
 ## How to setup this project
