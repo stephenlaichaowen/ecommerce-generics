@@ -1,5 +1,9 @@
 # Ecommerce(Generics) Sapper App
 
+## Demo
+
+[Ecommerce Sapper App Demo](https://ecommerce-generics-sapper-app.netlify.app/)
+
 ## How to setup this project
 
 Create a directory, for example `sapper-app`, and open this directory with VSCode
