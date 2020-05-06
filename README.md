@@ -2,7 +2,7 @@
 
 ## Demo
 
-[Ecommerce Sapper App Demo](https://ecommerce-generics-sapper-app.netlify.app/)
+- Ecommerce Sapper App Demo [(https://ecommerce-generics-sapper-app.netlify.app/)](https://ecommerce-generics-sapper-app.netlify.app/)
 
 ## How to setup this project
 
