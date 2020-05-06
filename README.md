@@ -1,6 +1,6 @@
 # Ecommerce ( The Generics Band ) Sapper App
 
-![](ecommerce-generics.gif)
+![Demo](ecommerce-generics.gif)
 
 ## How to setup this project
 
