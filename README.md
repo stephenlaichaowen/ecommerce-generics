@@ -1,6 +1,10 @@
 # Ecommerce ( The Generics Band ) Sapper App
 
-![](https://stephenlaichaowen.github.io/my-assets/img/mars.jpg)
+![Desktop](static/desktop.png)
+
+![Desktop](static/mobile-1.png)
+
+![Desktop](static/mobile-2.png)
 
 ## How to setup this project
 
