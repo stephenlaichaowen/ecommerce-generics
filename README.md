@@ -87,6 +87,13 @@ Enter `__sapper__/export` in `Publish directory` input box
 
 Click `Deploy site`
 
+## Recommend Learning resources
+
+- Svelte Master
+  - [Svelte tutorial](https://www.youtube.com/watch?v=cU8ZPBKaEwU&list=PLcjHRSem_cvP440pjw79kB85Z_7Nn8VqZ)
+  - [Sapper tutorial](https://www.youtube.com/watch?v=kGfplN8HtlQ&list=PLcjHRSem_cvNDvCP3l6diqi7YBAsjfplL)
+- The Net Ninja
+  - [Svelte Tutorial for Beginners](https://www.youtube.com/watch?v=zojEMeQGGHs&list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO)
 
 
 
