@@ -101,7 +101,8 @@ Click `Deploy site`
 ### The Net Ninja / youtube channel
 - [Svelte Tutorial for Beginners](https://www.youtube.com/watch?v=zojEMeQGGHs&list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO)
 
-### [Svelte.js Developers / facebook group](https://www.facebook.com/groups/1219388761568875)
+### Svelte.js Developers
+[facebook](https://www.facebook.com/groups/1219388761568875)
 
 
 
