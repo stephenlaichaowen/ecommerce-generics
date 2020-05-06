@@ -1,8 +1,6 @@
 # Ecommerce ( The Generics Band ) Sapper App
 
-## Demo
-
-[Ecommerce Sapper App Demo](https://ecommerce-generics-sapper-app.netlify.app/)
+![](https://stephenlaichaowen.github.io/my-assets/img/ecommerce-generics.gif)
 
 ## How to setup this project
 
