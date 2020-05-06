@@ -1,6 +1,6 @@
 # Ecommerce ( The Generics Band ) Sapper App
 
-![]('https://stephenlaichaowen.github.io/my-assets/img/ecommerce-generics.gif')
+![Demo](https://stephenlaichaowen.github.io/my-assets/img/ecommerce-generics.gif)
 
 ## How to setup this project
 
