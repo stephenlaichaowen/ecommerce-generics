@@ -99,7 +99,7 @@ Click `Deploy site`
 - [CSS/Component Libraries](https://www.youtube.com/watch?v=RBsNhhdPH0Q&list=PLcjHRSem_cvMiehtWg-fZiW9IbNNt9H0T)
 
 ### The Net Ninja / youtube channel
-- [Svelte Tutorial for Beginners](https://www.youtube.com/watch?v=zojEMeQGGHs&list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO)
+[Svelte Tutorial for Beginners](https://www.youtube.com/watch?v=zojEMeQGGHs&list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO)
 
 ### Svelte.js Developers
 [facebook](https://www.facebook.com/groups/1219388761568875)
