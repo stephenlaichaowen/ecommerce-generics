@@ -1,4 +1,4 @@
-# Ecommerce -( The Generics Band ) Sapper App
+# Ecommerce ( The Generics Band ) Sapper App
 
 ## Demo
 
