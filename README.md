@@ -24,7 +24,7 @@ npm run dev
 ## Project Structure
 
 src
-- api ( not implemented yet )
+- api ( backend services, not implemented yet )
 - components
   - Nav.svelte
   -Footer.svelte
