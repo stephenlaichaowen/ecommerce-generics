@@ -2,7 +2,7 @@
 
 ## DEMO
 
-[link](https://stephenlaichaowen.github.io/my-assets/img/vacation.jpg)
+[link](https://stephenlaichaowen.github.io/my-assets/img/ecommerce-generics.gif)
 
 ## How to setup this project
 
