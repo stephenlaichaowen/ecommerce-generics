@@ -19,7 +19,7 @@
         <span class="tour-item tour-date">{item.date}</span>
         <span class="tour-item tour-city">{item.location}</span>
         <span class="tour-item tour-arena">{item.theatre}</span>
-        <button type="button" class="tour-item tour-btn btn btn-primary" on:click={() => buyTickets(item.date, item,location, item.theatre)}>
+        <button type="button" class="tour-item tour-btn btn btn-primary" on:click={() => buyTickets(item.date, item.location, item.theatre)}>
           BUY TICKETS
         </button>
       </div>
