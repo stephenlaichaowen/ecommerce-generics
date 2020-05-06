@@ -27,7 +27,7 @@ src
 - api ( backend services, not implemented yet )
 - components
   - Nav.svelte
-  -Footer.svelte
+  - Footer.svelte
 - routes
   - index.svelte ( home page )
   - store.svelte ( store page )
